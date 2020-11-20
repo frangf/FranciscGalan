@@ -1,4 +1,4 @@
-<?php
+<?php//visusi - corrections - OK
       echo "$_POST[nom]<br>";
       echo "$_POST[email]<br>";
 
