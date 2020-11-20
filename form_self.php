@@ -1,4 +1,4 @@
-<?php
+<?php//visusi correction OK
 $nom = "$_GET[nom]";
 $edad = "$_GET[edad]";
 $email = "$_GET[email]";
