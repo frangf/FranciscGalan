@@ -1,4 +1,5 @@
 <?php
+//visusi - corrections - OK
 /*Vector time of a day*/
 $tiempo[0]="Morning ";
 $tiempo[1]="Noon ";
