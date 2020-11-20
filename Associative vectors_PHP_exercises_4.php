@@ -1,4 +1,5 @@
 <?php
+//visusi - corrections - OK
 /*1.Associative array:dias de enero*/
 echo "<br>1.Associative array: January months days";
 echo "<br> String key: Enero <br>";
