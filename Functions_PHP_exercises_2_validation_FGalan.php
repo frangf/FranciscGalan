@@ -17,6 +17,7 @@ function ValidarPassword($password1, $password2){
       return True;}
   else   {
     echo "No son iguales";}//visusi - canviar per return false per a que retorne  un tipus boolean en els dos casos
+                                          //Falta posar el nom del fitxer al missatge del commit
 }
 
 echo ValidarPassword('Francisco', 'Galan')
