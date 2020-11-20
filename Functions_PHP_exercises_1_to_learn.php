@@ -1,5 +1,6 @@
 
-<?php
+<?php //visusi OK
+           //Falta  posar el nom del fitxrer al commit del git
 function missatge($argument)
 {
     echo "$argument<br>";
