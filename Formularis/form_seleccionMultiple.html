@@ -1,0 +1,47 @@
+<HTML>
+
+<head>
+
+    <title>Un exemple amb un formulari</title>
+
+</head>
+
+<body>
+
+    <form action="seleccioMultiple.php" method="POST">
+
+        Nom:
+
+        <input type="text" name="nom">
+
+        <br> Correu electrònic:
+
+        <input type="text" name="email">
+
+        <br> Navegadors que coneixes:
+
+        <br>
+
+        <select name="navegadors[]" multiple>
+
+            <option value="Chrome">Chrome</option>
+
+            <option value="MozillaFirefox">Mozilla Firefox</option>
+
+            <option value="Safari">Safari</option>
+
+            <option value="Opera">Opera</option>
+
+            <option value="Lynx">Lynx</option>
+
+        </select>
+
+        <br>
+
+        <input type="submit" value="Envia">
+
+    </form>
+
+</body>
+
+</HTML>
