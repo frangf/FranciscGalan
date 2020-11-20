@@ -16,7 +16,7 @@ function ValidarPassword($password1, $password2){
   if (strcmp($password1, $password2) == 0 ){
       return True;}
   else   {
-    echo "No son iguales";}
+    echo "No son iguales";}//visusi - canviar per return false per a que retorne  un tipus boolean en els dos casos
 }
 
 echo ValidarPassword('Francisco', 'Galan')
