@@ -1,4 +1,4 @@
-<?php
+<?php//visusi corrections OK
 $Menu1['Desayuno']=array("Breakfast: ","Milk ","Coffe ","Toast ","Oats","<br>");
 $Menu2['Almuerzo']=array("Lunch: ","Spanish Omelet ","Spaguetti ","beans ","bacon","<br>");
 $Menu3['Comida']=array("Dinner: ","Soup ","Cheese ","Fruit ","Yogurt");
