@@ -16,7 +16,7 @@ function ValidarPassword($password1, $password2){
   if (strcmp($password1, $password2) == 0 ){
       return True;}
   else   {
-    echo "No son iguales";}//visusi - canviar per return false per a que retorne  un tipus boolean en els dos casos
+      return False;}//visusi - canviar per return false per a que retorne  un tipus boolean en els dos casos
                                           //Falta posar el nom del fitxer al missatge del commit
 }
 
