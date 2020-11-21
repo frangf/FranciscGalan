@@ -31,6 +31,7 @@ function resta($valor1, $valor2)
 echo "10-5 son: " .resta(10, 5);
 ?>
 
+
 <br>
 <br>
 
