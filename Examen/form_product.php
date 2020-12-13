@@ -1,26 +1,27 @@
 <?php
+//viusi corrections - see comments below amd rubric in moodle
 //Variables definition
 $name=$capitalisedName=$price=$discount=$discountQuantity=$finalPrice=$replacedMessage=null;
 
 //Reference to php file where the functions are
-'form_product_validation.php';
+'form_product_validation.php';//visusi corrections - falta include
 
 if ($_POST){
   //name format
   $name=$_POST['name'];
   //if the $name variable has been initialised and is not null
-  if(($name))
+  if(($name)) //visusi corrections - falta isset
      $capitalisedName = nameToCapitalLetters($name);
   //price value
   $price=$_POST['price'];
   //selected discount
    foreach ($_POST['discounts'] as $option)
-     $discount = $option;
+     $discount = $option;////visusi corrections - OK
 
   //discountQuantity
   //if $discount and $price have been initialised and are not null
-  if(($discount)($price)){
-    $finalPrice=discountCalculation($price - $discount);
+  if(($discount)($price)){	 //visusi corrections - Be attentive to solution in class
+    $finalPrice=discountCalculation($price - $discount);	 //visusi corrections - Be attentive to solution in class
   }
   //message replacement
   //if $finalPrice is false using !
