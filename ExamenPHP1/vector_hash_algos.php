@@ -1,4 +1,5 @@
 <?php
+ //visusi corrections - Be attentive to solution in class
 /*
 Donada la funcio de php hash_algos()
 1-Mostra amb un bucle for each tots els seus elements

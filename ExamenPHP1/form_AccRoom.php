@@ -1,4 +1,5 @@
 <?php
+//visusi corrections - Be attentive to solution in class
 //Definició de variable i assignació de valor null
 $finalPrice=$partialPrice2=$partialPrice=$viewsPrice=$genderPrice=$typePrice=$foodServices=$views=$gender=$type=null;
 
@@ -46,8 +47,8 @@ if ($_GET){
 
   //si els preus del tipus i el genere de l'habitacio son major de 0
   //sumar-los i assignar el resultat a la variable $partialPrice
-  if(($type)&&($gender) > 0)
-    $partialPrice= ($type + $gender);
+  if(($type)&&($gender) > 0)	 //visusi corrections - Be attentive to solution in class
+    $partialPrice= ($type + $gender);	 //visusi corrections - Be attentive to solution in class
   //sino asignar valor 0 a $partialPrice
   else {
     return $partialPrice = 0;
@@ -55,11 +56,11 @@ if ($_GET){
 
   //si els preus de les vistes i els serveis de restauracio diferent de 0
   //sumar-los i assignar el resultat a la variable $partialPrice2
-  if(($views)&&($foodServices) !== 0)
-    $partialPrice2= ($views + $foodServices);
+  if(($views)&&($foodServices) !== 0)	 //visusi corrections - Be attentive to solution in class
+    $partialPrice2= ($views + $foodServices);	 //visusi corrections - Be attentive to solution in class
   //sino asignar valor 0 a $partialPrice2
 else {
-  return $partialPrice2;
+  return $partialPrice2;	 //visusi corrections - Be attentive to solution in class
 }
 
   //calcul del preu final
@@ -111,7 +112,7 @@ else {
     //Si s'ha calculat el preu, es a dir si $finalPrice no es null i té un valor
     if(isset($finalPrice)){
         //Mostrar el missatge amb el preu total
-      return $finalPrice ;
+      return $finalPrice ;	 //visusi corrections - Be attentive to solution in class
     }
   ?>
 </body>
