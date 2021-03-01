@@ -1,0 +1,9 @@
+Buenas Violeta, hice el examen en este puente pero tuve ciertas dificultades ya que la pagina de la función me daba error y no sabia como solucionarlo.
+Veras que te he añadido 3 archivos: El archivo principal, el validador y una copia del archivo principal.
+
+La copia del archivo principal veras que tiene varios errores que no tienen sentido como en el foreach el cual esta bien creado y en uno de los if(!$macs) en la sección de message.
+
+Por otro lado intente revolver hacer el ejercicio pero modificando el previo código ya creado eliminando secciones como el propio foreach, el message u otros.
+
+En este puente te envié un correo electrónico por si podías revisar el código por si hubiera algun error o faltara código. 
+Esta a sido la única forma de poder conseguir que la pagina funcionara y no hubiera errores
